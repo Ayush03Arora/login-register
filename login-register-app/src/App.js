@@ -7,6 +7,7 @@ import LoginPage from './components/LoginPage';
 import RegisterPage from './components/RegisterPage';
 import TablePage from './components/TablePage';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import'./App.css';
 
 
 const App = () => {
@@ -27,7 +28,7 @@ const App = () => {
   return (
     <Router>
       <Navbar bg="dark" variant="dark">
-        <Navbar.Brand as={Link} to="/">Login and Register</Navbar.Brand>
+        <Navbar.Brand className='heading' as={Link} to="/">Login and Register</Navbar.Brand>
         <Nav className="mr-auto">
           <Nav.Link as={Link} to="/login">Login</Nav.Link>
           <Nav.Link as={Link} to="/register">Register</Nav.Link>
