@@ -27,7 +27,7 @@ const App = () => {
   return (
     <Router>
       <Navbar bg="dark" variant="dark">
-        <Navbar.Brand as={Link} to="/">MERN Auth</Navbar.Brand>
+        <Navbar.Brand as={Link} to="/">Login and Register</Navbar.Brand>
         <Nav className="mr-auto">
           <Nav.Link as={Link} to="/login">Login</Nav.Link>
           <Nav.Link as={Link} to="/register">Register</Nav.Link>
